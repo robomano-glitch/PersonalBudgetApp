@@ -1,0 +1,7 @@
+{
+  "name": "chipereganyu",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
