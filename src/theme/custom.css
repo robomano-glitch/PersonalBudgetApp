@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 h1,
 h2,
 h3,
 h4,
 h5 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .fade {
@@ -22,20 +23,16 @@ p {
 }
 
 .card-1 {
-    background-color: #8862e0;
     color: white;
-    background: rgb(74, 140, 208);
-    background: linear-gradient( 90deg, rgba(74, 140, 208, 1) 0%, rgba(136, 98, 224, 1) 49%);
+    background: #FA9B47;
 }
 
 .card-2 {
-    background: rgb(87, 167, 139);
-    background: linear-gradient( 346deg, rgba(87, 167, 139, 1) 0%, rgba(25, 216, 149, 1) 49%);
+    background: #918ABE;
     color: white;
 }
 
 .card-3 {
-    background: rgb(2, 105, 186);
-    background: linear-gradient( 346deg, rgba(2, 105, 186, 1) 0%, rgba(33, 150, 243, 1) 49%);
+    background: #FE5558;
     color: white;
 }

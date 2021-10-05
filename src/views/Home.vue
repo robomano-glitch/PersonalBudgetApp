@@ -2,24 +2,24 @@
   <ion-page>
     <ion-content :fullscreen="true">
       <ion-grid>
-        <ion-row>
-          <ion-col size="4">
-            <p class="fade">Robert Sageme</p>
-          </ion-col>
-          <ion-col size="4"> </ion-col>
-          <ion-col size="4">
-            <p class="fade">05 May, 2021</p>
-          </ion-col>
-        </ion-row>
-      </ion-grid>
-      
-      <ion-grid>
         <ion-row class="ion-no-margin ion-no-padding">
           <ion-col size="12" class="ion-no-margin">
             <ion-card class="card-1 ion-no-margin">
               <ion-card-content>
-                <h1>5</h1>
-                <p>Members in this group</p>
+                <ion-grid class="ion-no-padding">
+                  <ion-row class="ion-no-padding ion-no-margin">
+                    <ion-col size="10">
+                      <h1>MK5,000,000</h1>
+                      <p>Total balance</p>
+                    </ion-col>
+                    <ion-col size="2">
+                      <img
+                        src="../../public\assets\images\218390.png"
+                        width="50"
+                      />
+                    </ion-col>
+                  </ion-row>
+                </ion-grid>
               </ion-card-content>
             </ion-card>
           </ion-col>
@@ -28,24 +28,38 @@
         <ion-row class="ion-no-margin ion-no-padding">
           <ion-col size="6" class="ion-no-margin">
             <ion-card class="card-2 ion-no-margin ion-no-padding">
-              <ion-card-content class="ion-no-padding">
-              <ion-row>
-                <ion-col size="8">
-                  
-                </ion-col>
-                <ion-col size="4">
-                  
-                </ion-col>
-              </ion-row>
+              <ion-card-content>
+                <ion-row>
+                  <ion-col size="9" class="ion-no-padding">
+                    <h1>MK5,000,00</h1>
+                    <p>Income</p>
+                  </ion-col>
+                  <ion-col size="3" class="ion-no-padding">
+                    <img
+                      src="../../public\assets\images\218390.png"
+                      width="50"
+                    />
+                  </ion-col>
+                </ion-row>
               </ion-card-content>
             </ion-card>
           </ion-col>
-          
+
           <ion-col size="6" class="ion-no-margin">
             <ion-card class="card-3 ion-no-margin ion-no-padding">
               <ion-card-content>
-                <h1>5</h1>
-                <p>Members in this group</p>
+                <ion-row>
+                  <ion-col size="9" class="ion-no-padding">
+                    <h1>-MK5,000,00</h1>
+                    <p>Expenses</p>
+                  </ion-col>
+                  <ion-col size="3" class="ion-no-padding">
+                    <img
+                      src="../../public\assets\images\218390.png"
+                      width="50"
+                    />
+                  </ion-col>
+                </ion-row>
               </ion-card-content>
             </ion-card>
           </ion-col>
