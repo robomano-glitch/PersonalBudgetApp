@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.fade {
+    color: rgb(165, 165, 165);
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.blk-color {
+    color: black;
+}
+
+.card-1 {
+    background-color: #8862e0;
+    color: white;
+    background: rgb(74, 140, 208);
+    background: linear-gradient( 90deg, rgba(74, 140, 208, 1) 0%, rgba(136, 98, 224, 1) 49%);
+}
+
+.card-2 {
+    background: rgb(87, 167, 139);
+    background: linear-gradient( 346deg, rgba(87, 167, 139, 1) 0%, rgba(25, 216, 149, 1) 49%);
+    color: white;
+}
+
+.card-3 {
+    background: rgb(2, 105, 186);
+    background: linear-gradient( 346deg, rgba(2, 105, 186, 1) 0%, rgba(33, 150, 243, 1) 49%);
+    color: white;
+}
